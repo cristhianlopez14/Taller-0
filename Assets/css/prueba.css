@@ -1,0 +1,42 @@
+
+
+.contenedor{
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: blue;
+padding: 10px;
+gap: 5px;
+}
+
+.row {
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.row1{
+    background-color: black;
+    color: azure;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item5{
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-items: center;
+}
+
