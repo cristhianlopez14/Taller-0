@@ -292,12 +292,14 @@ nav a:hover{
 
   .cajas-dashboard{
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 15% auto;
   }
 
   .caja-1{
     display: grid;
-    grid-template-rows: repeat(6 /auto);
+    grid-template-rows: repeat(5 /auto);
+    background-color: var(--negro2);
+    grid-row: 25px;
   }
 
   .image-dashboard{
@@ -311,19 +313,34 @@ nav a:hover{
     background-color: #157A8A;
     align-items: center;
     justify-items: center;
-    row-gap: 25%;
+    row-gap: 20%;
+  }
+
+  .img2-dashboard{
+    border-radius: 5px;
   }
 
   .image2-dashboard img{
-    width: 50%;
+    width: 70%;
   }
 
   .nombre-correo{
     display: none;
   }
+  .cerrarsesion h2{
+    display: none;
+  }
 
   .text-dashboard{
     display: none;
+  }
+
+  .habitaciones-dashboard{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 2em;
+    color: var(--blanco);
   }
 
   .caja-2{
