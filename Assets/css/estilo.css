@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5{
   justify-content: center;  
 }
 .menu-hr{
-  width: 90%;
+  width: 100%;
   background-color: var(--blanco);
 }
 .item{
@@ -108,8 +108,8 @@ nav a:hover{
   .image-ubicanos{
     display: flex;
     align-content: center;
-    width: 90%;
-    height: 70%;
+    width: 100%;
+    height: auto;
   }
 
   .ubicacion-hr{
@@ -125,7 +125,7 @@ nav a:hover{
   .caja-user{
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-content: space-around;
   }
   .user1{
     width: 20rem;
@@ -133,9 +133,8 @@ nav a:hover{
   }
 
   .user2{
-    width: 2rem;
+    width: 5rem;
     height: 10rem;
-
   }
  
 
@@ -375,6 +374,12 @@ nav a:hover{
     text-decoration: none;
     color: var(--gris);
   
+  }
+
+  .image-ubicanos{
+    align-items: center;
+    width: 1000px;
+    height: auto;
   }
   
 }
