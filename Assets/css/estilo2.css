@@ -283,6 +283,53 @@ nav a:hover{
     margin: 0.5rem;
     width: 95%;
   } 
+
+  /*--------------------REGISTRAR HUESPED--------------------*/
+
+  .dashboard{
+    
+  }
+
+  .cajas-dashboard{
+    display: grid;
+    grid-template-columns: 20% auto;
+  }
+
+  .caja-1{
+    display: grid;
+    grid-template-rows: repeat(6 /auto);
+  }
+
+  .image-dashboard{
+    display: none;
+  }
+
+  .image2-dashboard{
+    display: grid;
+    width: 99%;
+    height: auto;
+    background-color: #157A8A;
+    align-items: center;
+    justify-items: center;
+    row-gap: 25%;
+  }
+
+  .image2-dashboard img{
+    width: 50%;
+  }
+
+  .nombre-correo{
+    display: none;
+  }
+
+  .text-dashboard{
+    display: none;
+  }
+
+  .caja-2{
+    background-color: #337AB7;
+  }
+
 }
 
 @media screen and (min-width: 1024px){
