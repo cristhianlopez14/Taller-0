@@ -83,12 +83,12 @@ nav a:hover{
    /*display: none ;*/ 
    }
 
-   #slide1{
+   #slide1{ 
     display: flex;
     background-size: cover;  
     background-repeat: no-repeat;
     background-position: center;   
-    
+    font-size: 0.7em;
   }
 
   #informacion{
@@ -271,130 +271,699 @@ nav a:hover{
     margin: 0.5rem;
     text-decoration: none;
     color: var(--gris);
-  
   }
 
+  #calificacion{
+  background: var(--blanconegro);
+  color: var(--blanco);
+  padding: 1rem;
+}
+
+.caja-user{
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.title-calificacion{
+  text-align: center;
+  font-size: 3em;
+}
+.user{
+  display: flex;
+  margin: 10px;
+}
+.user2 img{
+  width: 100%;
+  height: 100%;
+}
+.user1 img{
+  width: 100%;
+  height: 100%;
+}
+
+  /*------------------------------------------------Inicio de sesión----------------------------------------------*/
+
+#Inicio-sesion{
+  background-image: url(../img/cama.png.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  color: var(--blanco);
+  justify-content: center;
+ 
+}
+
+#formulario{
+  background-image: url(../img/login_blanco.png);
+  background-color: rgba(74, 125, 169, 0.836);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top:10% ;
+  border-radius: 3px;
+  width: 25%;
+  height: auto;
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border: 0px;
+  margin-top: 1.5rem;
+  width:500px;
+  height: 25px;
+ 
+}
+
+.img-formulario img{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: flex-end;
+  margin: -20.7%;
+}
+
+#img-formulario{
+  width: 100%;
+  height: 50%;  
+  margin: 10px;
+  margin-right: 55%;
+}
+
+.user-formulario{
+  display: flex;
+  color: rgba(156, 39, 89);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 50px;
+}
+
+.formu{
+  width: 100%;
+  height: 20px;
+}
+
+.boton-formu{
+  width: 102.5%;
+  height: 25px;
+  background-color: var(--negro2);
+  color: var(--blanco);
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.registrar-formu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0.5rem;
+}
+
+.registrate{
+  display: flex;
+  align-content: center;
+  padding: 0.5rem;
+  color: var(--blanco);
+  font-size: 1em;
+}
+
+.aqui{
+  display: flex;
+  color: var(--negro2);
+}
+/*-------------------Registrar----------------*/
+.caja-registrar{
+  background-image: url(../img/bogota.png.jg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+#caja-registrar{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 100% ;
+}
+
+
+
+#bienvenido-registrar{
+  display: grid;
+  align-self: center;
+  grid-template-columns: 100%;
+  justify-items: center;
+  height: 90%;
+  background: var(--degradado);
+  color: var(--blanco);
+  margin-top: 1rem;
+  width: 100%;
+}
+#bienvenido-registrar h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+#bienvenido-registrar img{
+  width: 25%;
+  height: auto;
+  padding-top: 0.5rem;
+ 
+}
+
+#formulario-registrar{
+  display: grid;
+  grid-template-columns: 100%;
+  align-self: center;
+  justify-self: center;
+  background-color: #b2b3b3c9;
+  margin: 1rem;
+  padding: 1rem
+}
+
+.title-registro{
+  text-align: center;
+  font-size: 2em;
+  padding: 1.5rem;
+}
+
+.campo1{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+
+.hotelia{
+  display: none;
+}
+.submit{
+  display: flex;
+  margin-left: 25%;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.Ingresar{
+background-color: var(--negro2);
+color: var(--blanco);
+width:50%;
+height: 30px;
+font-size: 1.2em;
+}
 }
 
 /*Resolución notebooks*/
 @media screen and (min-width: 1024px){
       
   nav{
-      display: flex;
-      flex-direction: row; 
-      width: 100%;
-      justify-content: space-between;
-      background-color: var(--negro2);
-  }
-  .logo{
-      padding: 1rem;
-  }
-  .logo img{
-      width: 100%;
-      max-width: 180px;       
-  }
-  .logo i{ 
-      display: none;
-  } 
-  .menu{
-      background-color: var(--negro2);
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-  .menu-hr{ 
-      display: none;
-  }
-  .navbar-button{
-      background-color:var(--azuloscuro);
-  }  
-  
-  .footer-hr{
-    display: none;
-   }
-  
-   #footer{
-    background-color: var(--negro);
     display: flex;
-    padding: 1rem;
-    color: var(--gris);
-  }
-  .footer{
+    flex-direction: row; 
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    align-items: flex-start;
-  }
-  
-   .col2, .col3, .col01{
-    width: 950px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: space-between;
-    align-items: flex-start;
-    text-align: justify;
-    padding: 0.5rem;
-    margin: 2rem;
-  }
-  
-  
-  
-  .icons1{
+    justify-content: space-between;
+    background-color: var(--negro2);
+}
+.logo{
+    padding: 1rem;
+}
+.logo img{
+    width: 100%;
+    max-width: 180px;       
+}
+.logo i{ 
     display: none;
-  }
-  .icons{
+} 
+.menu{
+    background-color: var(--negro2);
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.5rem;
-  }
-  .iconp{
-    padding: 1rem;
-  }
-  
-  .location, .phone{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .location, .phone i{
-    padding: 1rem;
-    display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
-  }
-  
-  .col3 a{
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    text-decoration: none;
-    color: var(--gris);
-  
-  }
+}
+.menu-hr{ 
+    display: none;
+}
+.navbar-button{
+    background-color:var(--azuloscuro);
+}
 
-  .image-ubicanos{
-    align-items: center;
-    width: 1000px;
-    height: auto;
-  }
-  
+/*----------------------------------------------------------------------------------------------*/
+
+#slide1{
+  background: url(../img/slide1.jpg);
+  color: var(--blanco);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content:flex-end;
+  padding: 1rem;
+  height: 37rem;
+  max-height: 600px;
+
+}
+
+.slide1{
+  display: flex;
+  background-color: rgba(0, 0, 0,0.35 );
+  text-align: justify;
+  font-size: 2.5em;
+  font-family: 'Marcellus', sans-serif;
+  width: 50%;
+}
+
+.footer-hr{
+  display: none;
+ }
+
+ #footer{
+  background-color: var(--negro);
+  display: flex;
+  padding: 1rem;
+  color: var(--gris);
+}
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: flex-start;
+}
+
+ .col2, .col3, .col01{
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: space-between;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 0.5rem;
+  margin: 2rem;
+}
+.icons1{
+  display: none;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+}
+.iconp{
+  padding: 1rem;
+}
+
+.location, .phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location, .phone i{
+  padding: 1rem;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.col3 a{
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  text-decoration: none;
+  color: var(--gris);
+
+}
+
+.image-ubicanos{
+  height: 500px;
+}
+.image-ubicanos iframe{
+  align-items: center;
+  width: 1500px;
+  height: 500px;
+
+}
+
+#informacion{
+  background-color: var(--blanco);
+  color: var(--negro2);
+  padding-top: 1rem;
+}
+
+.information{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info{
+  width: 30%;
+  margin: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-info{
+  width: 60%;
+  padding: 0.5rem;
+}
+
+.img-info{
+  width: 20%;
+  padding-top: 0.5rem;
+}
+
+#img-info{
+  width: 150px;
+}
+
+
+#features{
+  background:url(../img/bg-features.png);
+  color: var(--blanco);
+  padding-top: 1rem;
+}
+
+.features-title{
+  background-color: rgba(0, 0, 0,0.35 );
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5em;
+}
+
+.features-description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature{
+  width: 25%;
+  min-width: 180px;
+  max-width: 230px;
+  margin: 0.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.feature i{
+ font-size: 2.2em;
+ margin-bottom: 1.5rem;
+}
+
+.feature-blue{
+  background-color: #00325eae;
+}
+
+.feature-black{
+  background-color: rgba(0,0,0,0.59);
+}
+
+#ubicanos{
+  background-color: var(--fondo);
+  color: var(--negro2);
+  padding: 1rem;
+}
+
+
+.title-ubicanos{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.caja-ubicanos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.image-ubicanos{
+}
+
+.addres-ubicacion{
+  text-align: center;
+  padding: 1rem;
+}
+.contactar{
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+
+  /*------------------------------------------------Inicio de sesión----------------------------------------------*/
+
+#Inicio-sesion{
+  background-image: url(../img/cama.png.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  color: var(--blanco);
+  justify-content: center;
+ 
+}
+
+#formulario{
+  background-image: url(../img/login_blanco.png);
+  background-color: rgba(74, 125, 169, 0.836);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top:10% ;
+  border-radius: 3px;
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border: 0px;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: auto;
+ 
+}
+
+.img-formulario{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: flex-start;
+  margin: -13.7%;
+}
+
+#img-formulario{
+  width: 100%;
+  height: 50%;  
+  margin: 10px;
+  margin-right: 55%;
+}
+
+.user-formulario{
+  display: flex;
+  color: rgba(156, 39, 89);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 50px;
+}
+
+.formu{
+  width: 100%;
+  height: 20px;
+}
+
+.boton-formu{
+  width: 102.5%;
+  height: 25px;
+  background-color: var(--negro2);
+  color: var(--blanco);
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.registrar-formu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0.5rem;
+}
+
+.registrate{
+  display: flex;
+  align-content: center;
+  padding: 0.5rem;
+  color: var(--blanco);
+  font-size: 1em;
+}
+
+.aqui{
+  display: flex;
+  color: var(--negro2);
+}
+
+/*------------------------------------------------Registro de Huesped----------------------------------------------*/
+
+.caja-registrar{
+  display: flex;
+  background-image: url(../img/bogota.png.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#caja-registrar{
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+#bienvenido-registrar{
+  display: flex;
+  background: var(--degradado);
+  color: var(--blanco);
+  background-size: 100%;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  min-height: auto;
+  max-height: 1750px;
+}
+
+#bienvenido-registrar .hotelia2{
+  display: none;
+}
+
+#bienvenido-registrar img{
+  display: flex;
+  align-items: center;
+
+  padding: 1rem;
+  margin-top: 9rem;
+}
+
+#bienvenido-registrar h2{
+  display: flex;
+  padding: 2rem;
+  font-size: 2em;
+  text-align: center;
+}
+
+#formulario-registrar{
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(255, 255, 255, 0.616);
+  margin: 3rem 3rem;
+  border-radius: 3px;
+  width: auto;
+}
+
+.title-registro{
+  text-align: center;
+  font-size: 3em;
+  padding: 1.5rem;
+}
+
+.campos-formu{
+  display: flex;
+  flex-direction:column;
+  padding: 0rem;
+  width: 100%;
+}
+
+.bienvendio-registrar{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: flex-start;
+  width: 100px;
+}
+
+.campo1-2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  padding-right: 250px;
+
+}
+
+.campo1-2 input{
+  width: 250px;
+}
+
+.campo1-2 select{
+  width: 260px;
+}
+.campo1{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.campo-genero{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0%;
+}
+
+.campo-genero input{
+  width: 15px;
+}
+
+.terminos{
+  align-items: flex-start;
+  flex-direction: row;
+  align-content: center;
+  padding: 1rem;
+}
+
+.TerCon{
+ margin-left: 33%;
+}
+
+.submit{
+  display: flex;
+  margin-left: 37%;
+  padding-bottom: 2rem;
+}
+.Ingresar{
+background-color: var(--negro2);
+color: var(--blanco);
+width: 200px;
+height: 30px;
+font-size: 1.2em;
+}
+
 }
 /*Resolución notebooks*/
 @media screen and (min-width: 1308px){
     
 }
-
-
-
-
-
-
-
-/*----------------------------------------------------------------------------------------------*/
 
 #slide1{
   background: url(../img/slide1.jpg);
@@ -567,30 +1136,28 @@ nav a:hover{
   width: 100%;
   height: 100%;
 }
-
-
-
-
-/*----------------------------------------------------------------------------------------------*/
-
-
 /*------------------------------------------------Inicio de sesión----------------------------------------------*/
 
 #Inicio-sesion{
   background-image: url(../img/cama.png.jpg);
+  background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   color: var(--blanco);
+  justify-content: center;
+ 
 }
 
 #formulario{
-  background:var(--negroblanco);
+  background-image: url(../img/login_blanco.png);
+  background-color: rgba(74, 125, 169, 0.836);
+  background-size: 100%;
+  background-repeat: no-repeat;
   padding: 3rem;
   display: flex;
   flex-direction: column;
   margin-top:10% ;
-  margin-left:35% ;
   border-radius: 3px;
 }
 
@@ -598,9 +1165,12 @@ nav a:hover{
 .formulario{
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
-  align-items: flex-start;
+  align-content: center;
+  align-items: center;
   border: 0px;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: auto;
  
 }
 
@@ -621,7 +1191,7 @@ nav a:hover{
 
 .user-formulario{
   display: flex;
-  color: #9C2759;
+  color: rgba(156, 39, 89);
   flex-direction: column;
   align-content: center;
   align-items: center;
@@ -647,6 +1217,7 @@ nav a:hover{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   align-content: space-between;
   margin: 0.5rem;
 }
@@ -664,126 +1235,8 @@ nav a:hover{
   color: var(--negro2);
 }
 
-/*------------------------------------------------Registro de Huesped----------------------------------------------*/
 
-.caja-registrar{
-  display: flex;
-  background-image: url(../img/bogota.png.jpg);
-  background-size: 100%;
-}
 
-#caja-registrar{
-  display: flex;
-  flex-direction: row;
-}
-
-#bienvenido-registrar{
-  background-color: #17217cbb;
-  color: var(--blanco);
-  background-size: 100%;
-  flex-direction: column;
-  align-content: center;
-  width: 400px;
-  height: 667px;
-  max-height: 750px;
-}
-
-#bienvenido-registrar img{
-  display: flex;
-  align-content: center;
-  padding: 1rem;
-  margin-top: 2rem;
-}
-
-#bienvenido-registrar h2{
-  display: flex;
-  padding: 2rem;
-  font-size: 2em;
-  text-align: center;
-}
-
-#formulario-registrar{
-  display: flex;
-  flex-direction: column;
-  background-color:rgba(255, 255, 255, 0.616);
-  margin: 3rem;
-  border-radius: 3px;
-}
-
-.title-registro{
-  text-align: center;
-  font-size: 3em;
-  padding: 1.5rem;
-}
-
-.campos-formu{
-  display: flex;
-  flex-direction:column;
-  padding: 0rem;
-  width: 100%;
-}
-
-.bienvendio-registrar{
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  align-items: flex-start;
-  width: 100px;
-}
-
-.campo1-2{
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-  padding-right: 250px;
-
-}
-
-.campo1-2 input{
-  width: 250px;
-}
-
-.campo1-2 select{
-  width: 260px;
-}
-.campo1{
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-}
-.campo-genero{
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  margin: 0%;
-}
-
-.campo-genero input{
-  width: 15px;
-}
-
-.terminos{
-  align-items: flex-start;
-  flex-direction: row;
-  align-content: center;
-  padding: 1rem;
-}
-
-.TerCon{
- margin-left: 33%;
-}
-
-.submit{
-  display: flex;
-  margin-left: 37%;
-}
-.Ingresar{
-background-color: var(--negro2);
-color: var(--blanco);
-width: 200px;
-height: 30px;
-font-size: 1.2em;
-}
 
 /*------------------------------------------------Dashboard----------------------------------------------*/
 
@@ -965,3 +1418,56 @@ font-size: 1.2em;
 }
 
 
+/*----------------------------MODAL--------------------------------------*/
+
+.contenido-modal{
+  background-color:var(--blanco);
+  width:400px;
+  margin: 20% auto;
+  position: relative;
+  height: 53%;
+}
+
+.title-modal{
+  background: var(--degradado);
+  width: 100%;
+  margin: 0;
+  color: var(--blanco);
+  height: 50px;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.p-modal{
+  text-align: justify;
+  margin: 1rem;
+}
+
+.button{
+  display: flex;
+  background-color: var(--negro2);
+  color: var(--blanco);
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
+  align-items: center;
+  width: 15%;
+  margin-left: 40%;
+}
+
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+
+#Terminos:target{
+  opacity:1;
+  pointer-events:auto;
+}
