@@ -78,6 +78,12 @@ nav a:hover{
   color: var(--blanco);
 }
 /*Resolución celular*/
+
+
+
+
+
+
 @media screen and (min-width:320px) and (max-width:1024px){
    .menu{
    /*display: none ;*/ 
@@ -115,17 +121,6 @@ nav a:hover{
   .ubicacion-hr{
     color: var(--Magenta);
     width: 90%;
-  }
-
-  #calificacion{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .caja-user{
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
   }
   .user1{
     width: 20rem;
@@ -273,34 +268,7 @@ nav a:hover{
     color: var(--gris);
   }
 
-  #calificacion{
-  background: var(--blanconegro);
-  color: var(--blanco);
-  padding: 1rem;
-}
-
-.caja-user{
-  display: flex;
-  justify-content: space-around;
-  margin: 1rem;
-}
-
-.title-calificacion{
-  text-align: center;
-  font-size: 3em;
-}
-.user{
-  display: flex;
-  margin: 10px;
-}
-.user2 img{
-  width: 100%;
-  height: 100%;
-}
-.user1 img{
-  width: 100%;
-  height: 100%;
-}
+  
 
   /*------------------------------------------------Inicio de sesión----------------------------------------------*/
 
@@ -410,6 +378,7 @@ nav a:hover{
   background-position: center;
   height: 100%;
 }
+
 #caja-registrar{
   display: grid;
   grid-template-columns: auto;
@@ -1108,34 +1077,6 @@ font-size: 1.2em;
 
 /*----------------------------------------------------------------------------------------------*/
 
-#calificacion{
-  background: var(--blanconegro);
-  color: var(--blanco);
-  padding: 1rem;
-}
-
-.caja-user{
-  display: flex;
-  justify-content: space-around;
-  margin: 1rem;
-}
-
-.title-calificacion{
-  text-align: center;
-  font-size: 3em;
-}
-.user{
-  display: flex;
-  margin: 10px;
-}
-.user2 img{
-  width: 100%;
-  height: 100%;
-}
-.user1 img{
-  width: 100%;
-  height: 100%;
-}
 /*------------------------------------------------Inicio de sesión----------------------------------------------*/
 
 #Inicio-sesion{
@@ -1242,7 +1183,8 @@ font-size: 1.2em;
 
 .dashboard{
   display: flex;
-  background-image: url(../img/personas.jpg);}
+  background-image: url(../img/personas.jpg);
+}
 
 .caja-1{
   display: block;
